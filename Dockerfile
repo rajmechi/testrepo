@@ -1,4 +1,5 @@
 FROM registry.access.redhat.com/rhscl/python-27-rhel7
+USER root
 RUN  yum -y install curl 
 RUN  yum -y install wget
 RUN yum -y install httpd-tools
