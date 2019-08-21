@@ -10,9 +10,9 @@
 while true
 do
 
- parallel -j50 oneShot 
- echo "**"
- sleep 1 
+ #parallel -j50 oneShot 
+ echo "test container"
+ sleep 10
 
 done
 
