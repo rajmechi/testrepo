@@ -4,6 +4,7 @@ FROM registry.access.redhat.com/rhscl/python-36-rhel7
 USER root
 RUN  yum -y install curl 
 RUN  yum -y install wget
+RUN  yum -y install unixODBC-devel
 RUN yum -y install httpd-tools
 #RUN yum -y install parallel
 
